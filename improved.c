@@ -12,7 +12,7 @@ for(i=0;i<n;i++)
 {
 for(j=i+1;j<n;j++)
 {
-if(num[i]>num[30])
+if(num[30]<num[i])
 {
 a=num[i];
 num[i]=num[j];
