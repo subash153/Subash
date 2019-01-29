@@ -4,7 +4,7 @@ void main()
 {
 char s[30];
 int n=0;
-scanf("%[^\n]",&s);
+scanf("%s",&s);
 for(i=0;s[i]!='\0';i++)
 {
 if(s[i]==' ')
