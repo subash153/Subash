@@ -2,15 +2,14 @@
 #include<conio.h>
 void main()
 {
-int n;
+int n,i,l=0;
 scanf("%d",&n);
 if((n>=0)&&(n<=9))
 {
-printf("it is numeric");
-}
-else
+for(i=0;i!='\0';i++)
 {
-printf("not numeric");
+  l++;
+}
 }
 getch();
 }
