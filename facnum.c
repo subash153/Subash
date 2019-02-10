@@ -1,19 +1,17 @@
 #include <stdio.h>
-int main()
+void main()
 {
-    int number, i;
+    int num,i;
 
     printf("Enter a positive integer: ");
-    scanf("%d",&number);
+    scanf("%d",&num);
 
-    printf("Factors of %d are: ", number);
-    for(i=1; i <= number; ++i)
+    printf("Factors of %d are: ", num);
+    for(i=1; i <= num; ++i)
     {
-        if (number%i == 0)
+        if (num%i == 0)
         {
             printf("%d ",i);
         }
     }
-
-    return 0;
 }
