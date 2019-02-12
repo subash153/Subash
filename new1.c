@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <conio.h>
-int main(void) 
+void main() 
 {
 	int a[10],b[10],c[10];
 	int i;
+	clrscr();
 	for(i=0;i<4;i++)
 	{
 		scanf("%d %d",&a[i],&b[i]);
@@ -16,5 +17,4 @@ int main(void)
 	{
 		printf("\n%d",c[i]);
 	}
-	return 0;
 }
