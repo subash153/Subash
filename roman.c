@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-
-int main(void)
+void main()
 {	
 	int t=0,n,m,i;
 	char rom[9];
@@ -44,5 +43,4 @@ for(i=0;i<m;i=i+2)
 		t=n+t;
 }
 printf("%d",t);
-return 0;
 }
