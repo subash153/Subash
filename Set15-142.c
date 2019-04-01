@@ -2,7 +2,7 @@
 
 int main()
 {
-    char a[1000];
+    char a[100];
     int n,i,j,c=0,k;
     scanf("%d %d",&n,&k);
     for(i=0;i<n;i++)
@@ -21,7 +21,7 @@ int main()
         }
         if(c==k)
         {
-            printf("yes");
+            printf("yess");
             break;
         }
     }
